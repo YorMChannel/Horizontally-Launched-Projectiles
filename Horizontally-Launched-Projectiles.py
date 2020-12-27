@@ -13,7 +13,7 @@ def get_index(type):
             raise ValueError
     except Exception:
         print("잘못된 값입니다. 다시 입력해주세요.")
-        get_index(type)
+        index = get_index(type)
     return index
 
 height = get_index(0)
